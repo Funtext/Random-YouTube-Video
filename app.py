@@ -18,4 +18,4 @@ def _index():
   for search_result in search_response.get('items', []):
     if search_result['id']['kind'] == 'youtube#video':
       videos.append('%s' % (search_result['id']['videoId']))
-      return Response(videos[random.randint(0, 2)]), mimetype='application/json')
+      return Response(videos[random.randint(0, 2)]))
