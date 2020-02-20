@@ -3,7 +3,7 @@ from flask import Flask, Response, request, render_template
 from flask_cors import cross_origin
 import random
 app = Flask(__name__)
-DEVELOPER_KEY = 'AIzaSyB29Rkl8cn7WljmEKliyHBploMZKqpDtzY'
+DEVELOPER_KEY = 'AIzaSyC_PaocP1gYrktivZvdscBqMEa-iv3KqfE'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 prefix = ['IMG ', 'IMG_', 'IMG-', 'DSC ']
