@@ -23,7 +23,7 @@ def youtube_search():
       videos.append('%s' % (search_result['id']['videoId']))
   return (videos[random.randint(0, 2)])
 
-@app.route('/word')
+@app.route('/')
 @cross_origin()
-def _word():
-print(youtube_search())
+def _index():
+return Response(json.dumps(youtube_search()), mimetype='application/json')
