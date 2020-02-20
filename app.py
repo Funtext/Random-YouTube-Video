@@ -1,4 +1,6 @@
 from googleapiclient.discovery import build
+from flask import Flask, Response, request, render_template
+from flask_cors import cross_origin
 import random
 
 DEVELOPER_KEY = 'AIzaSyA-FE1NvE8-0uiGhjlQnXD0DnjrO8CyEBE'
@@ -20,4 +22,8 @@ def youtube_search():
     if search_result['id']['kind'] == 'youtube#video':
       videos.append('%s' % (search_result['id']['videoId']))
   return (videos[random.randint(0, 2)])
+
+@app.route('/word')
+@cross_origin()
+def _word():
 print(youtube_search())
