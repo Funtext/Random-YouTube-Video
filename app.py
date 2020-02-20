@@ -3,7 +3,7 @@
 from googleapiclient.discovery import build
 import random
 
-DEVELOPER_KEY = 'YOUR_DEVELOPER_KEY'
+DEVELOPER_KEY = 'AIzaSyA-FE1NvE8-0uiGhjlQnXD0DnjrO8CyEBE'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
