@@ -1,4 +1,5 @@
-# Random YouTube Video Generator
+[![Build Status](https://travis-ci.com/Funtext/random-youtube-video-generator.svg?branch=master)](https://travis-ci.com/Funtext/random-youtube-video-generator)
+# Random YouTube Video API
 Random YouTube video generator script using YouTube Data API v3 written in Python. <br />
 Due to its query parameter this script fetches low viewed (0 - 250 views) YouTube video IDs oftenly. <br /><br />
 **Default Search Query:** `Prefix (IMG) + Random Integer (999-9999) + Postfix (MOV)` <br /><br />
