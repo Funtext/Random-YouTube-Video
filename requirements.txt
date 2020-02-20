@@ -1,2 +1,4 @@
-google-api-python-client==1.7.11
-gunicorn==19.9.0
+google-api-python-client
+gunicorn
+Flask
+flask-cors
