@@ -3,6 +3,7 @@ from flask import Flask, Response, request, render_template
 from flask_cors import cross_origin
 import random
 
+app = Flask(__name__)
 DEVELOPER_KEY = 'AIzaSyA-FE1NvE8-0uiGhjlQnXD0DnjrO8CyEBE'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
@@ -27,3 +28,6 @@ def youtube_search():
 @cross_origin()
 def _index():
 return Response(json.dumps(youtube_search()), mimetype='application/json')
+
+if __name__ == '__main__':
+    app.run(debug=False, use_reloader=True)
