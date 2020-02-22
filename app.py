@@ -17,3 +17,8 @@ def _index():
   for search_result in search_response.get('items', []):
     if search_result['id']['kind'] == 'youtube#video':
       return Response(search_result['id']['videoId'])
+
+@app.route('/')
+@cross_origin()
+def _ok():
+  return Response("server ok")
