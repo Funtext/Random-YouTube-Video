@@ -1,3 +1,3 @@
-[![Build Status](https://travis-ci.com/Funtext/random-youtube-video.svg?branch=master)](https://travis-ci.com/Funtext/random-youtube-video-generator) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&label=api%20status&up_color=green&up_message=online&url=https%3A%2F%2Frndyoutubevid.herokuapp.com%2F)
+[![Build Status](https://travis-ci.com/Funtext/random-youtube-video.svg?branch=master)](https://travis-ci.com/Funtext/random-youtube-video-generator) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&label=api%20status&up_color=green&up_message=online&url=https%3A%2F%2Frndyoutubevid.herokuapp.com%2Fok)
 # Random YouTube Video API
 A random YouTube API<br><br>Do you really need documentation? It just give you the YouTube video ID
